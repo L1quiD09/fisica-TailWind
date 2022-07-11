@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FISICA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/fisica.js"></script>
+
+</head>
+<body>
+   <!-- Cabezera  -->
+<div class="bg-indigo-700 p-4 flex justify-between items-center">
+
+    <!--   left side -->
+    <div class="flex items-center">
+      <img src="img/einstein (1).png" width="50" alt="Logo" class="mr-2">
+      <a href="index.html" class="inline-block p-2 text-indigo-200 hover:text-indigo-100 mr-2">Física</a>
+    </div>
+  
+    <!--   right side -->
+    <div class="hidden md:block">
+      <a href="https://infolibros.org/libros-pdf-gratis/fisica/fisica-general/" class="inline-block p-2 text-indigo-200 hover:text-indigo-100 mr-2" target="_blank">+Info</a>
+      <a href="http://www.sc.ehu.es/sbweb/fisica3/problemas/portada.html" class="inline-block py-2 px-4 text-yellow-700 bg-yellow-400 hover:bg-yellow-300 hover:text-yellow-800 rounded transition ease-in duration-150" target="_blank">Ejercicios</a>
+    </div>
+  
+</div>
+  
+  <div class="md:flex justify-between py-20 px-10 bg-indigo-600 text-indigo-100">
+  
+    <!--   left -->
+    <div class="md:w-1/2 mb-10 md:mb-0">
+      <h2 class="text-2xl md:text-4xl lg:text-6xl text-yellow-500 mb-6">Movimiento Rectilineo Uniforme</h2>
+      <p class="mb-6 text-start">En física, un movimiento es rectilíneo uniforme cuando un «objeto» (por ejemplo) viaja en una trayectoria recta a una velocidad constante,​ dado que su aceleración es nula.
+ 
+        El movimiento rectilíneo uniforme se designa frecuentemente con el acrónimo MRU, aunque en algunos países es MRC, por movimiento rectilíneo constante.
+
+        Para este tipo de movimiento, la distancia recorrida se calcula multiplicando la magnitud de la velocidad por el tiempo transcurrido. Esta relación también es aplicable si la trayectoria no es rectilínea, con tal que la rapidez o módulo de la velocidad sea constante.
+        </p>
+
+      <h3 class="text-2xl md:text-4xl lg:text-6xl text-yellow-500 mb-6 ">VELOCIDAD</h3>
+      
+      <div class="max-w-md mx-auto rounded-xl bg-indigo-700 shadow-md overflow-hidden md:max-w-2xl">
+        
+        <div class="md:flex">
+          <div class="md:shrink-0">
+            <img class="h-48 w-full object-cover md:h-full md:w-48" src="img/e.png" alt="">
+          </div>
+          <div class="p-8">
+            <p >Imagina que eres un astronauta en la Estación Espacial Internacional. Estás arreglando unos paneles solares averiados, cuando de pronto, al presionar, tu destornillador sale disparado de tus manos. Si no lo atrapas a tiempo, el destornillador estará viajando por el espacio en <b>línea recta</b>  y a <b>velocidad constante</b> , a menos que algo se interponga en su camino. Esto sucede porque la herramienta se mueve con movimiento rectilíneo uniforme, o MRU.</p>
+          </div>
+        </div>  
+      </div>
+      <br>
+
+      <h3 class="text-2xl md:text-4xl lg:text-6xl text-yellow-500 mb-6 ">FÓRMULA</h3>
+      <div class="max-w-md mx-auto rounded-xl bg-indigo-700 shadow-md overflow-hidden md:max-w-2xl">
+        
+        <div class="md:flex">
+          <div class="md:shrink-0">
+            <img class="h-48 w-full object-cover md:h-full md:w-48" src="img/ejemplosdecomocalcularvelocidad.jpg" alt="">
+          </div>
+          <div class="p-8">
+            <p > Velocidad es igual a la distancia sobre el tiempo</p>
+          </div>
+        </div>  
+      </div>
+      <br>
+      
+      <form >
+        <h3 class="text-yellow">Calcular Velocidad</h3>
+        <br>
+          <div class="mx-2 rounded-xl bg-indigo-600 shadow-md overflow w-1/2">
+            <div>
+              <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Distancia</label>
+              <input type="text" id="first_name1" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="m" required>
+            </div>
+            <div>
+              <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Tiempo</label>
+              <input type="text" id="first_name2" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="s" required>
+            </div>
+            <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Resultado</label>
+            <input type="text" id="first_name3" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Resultado" required readonly>
+            <br>
+          </div>
+      </form>
+      
+      <div class="mt-5 py-1 px-2 mx-5">
+        <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded-full" id="boton1">
+          Calcular
+        </button>
+        <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded-full" id="boton2">
+          Limpiar
+        </button>
+      </div>
+      
+
+    </div>
+  
+    <!--   right -->
+    <div class="md:w-1/2">
+      <img src="img/cohete.jpg" alt="Cohete" class="w-full rounded shadow-2xl">
+    </div>
+  
+    <hr>
+  </div>
+  <div class="md:flex py-3 px-5 bg-indigo-800 text-indigo-200 text-center">
+    <h3 class="text-2xl md:text-4xl lg:text-6xl text-yellow-500 mb-6 ">TABLA DE RESULTADOS</h3>
+  </div>
+  
+  <div class="md:flex py-3 px-5 bg-indigo-800 text-indigo-200 text-center ">
+      
+      <div class="relative overflow-x-auto shadow-md sm:rounded-lg w-1/2">
+        <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400" id="tabla">
+            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                <tr>
+                    <th scope="col" class="px-6 py-3">
+                      N
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        VELOCIDAD
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        DISTANCIA
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        TIEMPO
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+
+               
+            </tbody>
+        </table>
+    </div>
+   
+  </div>
+  <!-- features ============================== -->
+
+  <div class="md:flex py-3 px-5 bg-indigo-800 text-indigo-200 text-center ">
+    <img src="img/telescope.png" width="50" alt="Logo" class="mr-2">
+    <a href="index.html" class="inline-block py-2 text-indigo-200 hover:text-indigo-100 mr-2">Aplicaciones</a>
+  </div>
+  
+  <div class="md:flex py-2 px-10 bg-indigo-800 text-indigo-200 text-center">
+    <div class="mr-2 text-center">
+      <img src="img/criminalistica.jpg" class="w-full mb-4 rounded border-solid border-2 border-indigo-400">
+      <p>Criminalística</p>
+    </div>
+  
+    <div class="mr-2 mt-8 text-center">
+      <img src="img/astronomia.jpg" class="w-full mb-4 rounded border-solid border-2 border-indigo-400">
+      <p>Astronomía</p>
+    </div>
+
+  
+    <div class="mr-2 mt-8 text-center">
+      <img src="img/dinamica.jpg" class="w-full mb-4 rounded border-solid border-2 border-indigo-400">
+      <p>Dinámica Simple</p>
+    </div>
+  </div>
+  
+  <!-- footer + newsletter ============================== -->
+  <div class="p-10 bg-indigo-900 text-indigo-400 flex justify-between">
+  
+    <!--   left -->
+    <div class="md:w-1/2">
+  
+      <h3 class="text-lg mb-2">MRU Web Site</h3>
+
+    </div>
+  
+    <!--   right -->
+    <div class="flex items-center">
+      Creado por: Andrés Rodríguez
+    </div>
+  </div>
+  
+  
+</body>
+</html>
